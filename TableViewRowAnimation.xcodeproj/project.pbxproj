@@ -13,6 +13,7 @@
 		8A8917761E88FF09009BCF30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A8917741E88FF09009BCF30 /* Main.storyboard */; };
 		8A8917781E88FF09009BCF30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A8917771E88FF09009BCF30 /* Assets.xcassets */; };
 		8A89177B1E88FF09009BCF30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A8917791E88FF09009BCF30 /* LaunchScreen.storyboard */; };
+		8A8917841E8906F6009BCF30 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A8917831E8906F6009BCF30 /* Message.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		8A8917771E88FF09009BCF30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A89177A1E88FF09009BCF30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A89177C1E88FF09009BCF30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A8917821E8906F6009BCF30 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		8A8917831E8906F6009BCF30 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				8A8917791E88FF09009BCF30 /* LaunchScreen.storyboard */,
 				8A89177C1E88FF09009BCF30 /* Info.plist */,
 				8A89176B1E88FF09009BCF30 /* Supporting Files */,
+				8A8917821E8906F6009BCF30 /* Message.h */,
+				8A8917831E8906F6009BCF30 /* Message.m */,
 			);
 			path = TableViewRowAnimation;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A8917731E88FF09009BCF30 /* ViewController.m in Sources */,
+				8A8917841E8906F6009BCF30 /* Message.m in Sources */,
 				8A8917701E88FF09009BCF30 /* AppDelegate.m in Sources */,
 				8A89176D1E88FF09009BCF30 /* main.m in Sources */,
 			);
